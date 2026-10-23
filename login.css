@@ -1,0 +1,65 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+.quadrado{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+
+.quadrado h1{
+    text-align: center;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+.form-control label{
+    display: block;
+}
+
+
+/*Campos de texto e email*/
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="password"]{
+    width: 90%;
+    padding: 7px;
+
+}
+
+.opcoes input, .opcoes label{
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.form-control label{
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(57, 57, 212);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    border-color: rgb(0, 162, 255);
+}
+input{
+    background-color: rgb(250, 244, 234);
+    border-radius: 10px;
+}
+
+.button a{
+    background-color: rgb(57, 57, 212);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    border-color: rgb(0, 162, 255);
+    
+}
+
